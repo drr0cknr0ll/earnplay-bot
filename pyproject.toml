@@ -1,0 +1,18 @@
+[project]
+name = "earnplay-bot"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Dr.Rock-n0Roll",email = "addfuel.spb@gmail.com"}
+]
+requires-python = ">=3.10,<3.15"
+dependencies = [
+    "aiogram (>=3.28.2,<4.0.0)",
+    "python-dotenv (>=1.2.2,<2.0.0)",
+    "aiosqlite (>=0.22.1,<0.23.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
